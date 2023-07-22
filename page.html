@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Smart Home System</title>
+	<style>
+
+    body {
+      background-color: #a2a2a2;
+      background-image: linear-gradient(to bottom, #d4d4d4, #d0cfcf);
+      color: #000000;
+		  font-family: Arial, sans-serif;
+		  margin: 0;
+		  padding: 0;
+		}
+
+		h1 {
+		  text-align: center;
+		  margin-top: 50px;
+		}
+    .system-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .system-item {
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 20px;
+    }
+
+    .system-item img {
+      max-width: 300px;
+      height: auto;
+      border-radius: 50px;
+      box-shadow: 0 50px 20px rgba(10, 0, 0, 0.2);
+      transition: transform 0.2s ease-in-out;
+      margin-right: 10px;
+      margin-top: 200px;
+      margin-left: 30px;
+    }
+    .system-text {
+      font-size: 28px;
+		  font-weight: bold;
+      margin-top: -265px;
+      text-align: center;
+      margin-right: -20px;
+    }
+    .system-item:hover img {
+		  transform: scale(1.1);
+		}
+
+
+	</style>
+</head>
+<body>
+  <h1>Smart Home System</h1>
+<div class="system-container">
+  <div class="system-item">
+    <a href="smart_lightbulb.html"><img src="bulb.jpg"></a>
+    <p class="system-text">Lights</p>
+  </div>
+  <div class="system-item">
+    <a href="under development"><img src="lock.jpg"></a>
+    <p class="system-text">Lock</p>
+  </div>
+  <div class="system-item">
+    <a href="smart_camera.html"><img src="security.jpg"></a>
+    <p class="system-text">Security</p>
+  </div>
+  <!-- /<div class="system-item"> -->
+    <!-- <a href="speakers.html"><img src="speakers.jpg"></a> -->
+    <!-- <p class="system-text">Speakers</p> -->
+  <!-- </div> -->
+</div>
+
+</body>
+</html>
